@@ -416,7 +416,7 @@ wheels = [
 
 [[package]]
 name = "gradio"
-version = "6.15.0"
+version = "6.15.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -448,9 +448,9 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8f/7d/0f81cbbe84bcec5f1636428ea67cd7e7351c2939979cf9c89122ec2f6224/gradio-6.15.0.tar.gz", hash = "sha256:dce148292c95493990cbe358ac9f2295a11fa27bff218263e0422f004693270b", size = 36424891, upload-time = "2026-05-26T20:58:59.217Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b9/7a/edc719d67beea0963721a7f552604faa0feaf218d4a51c6e0dacfb51ba6a/gradio-6.15.1.tar.gz", hash = "sha256:58be31be7b3aab53bbe61f21c20666b4a8a25a6737c399e02b7463d669625851", size = 36429761, upload-time = "2026-05-27T13:20:35.232Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/19/32/410b3f58814c9fcae51d835829e7923364d347a0f62693a044047a02baad/gradio-6.15.0-py3-none-any.whl", hash = "sha256:c71bf7aeb3fd788de9a97961ae97f06bfddd6a3cc4cf1bd0bd3c62d016849fc8", size = 20091423, upload-time = "2026-05-26T20:58:55.146Z" },
+    { url = "https://files.pythonhosted.org/packages/00/87/b6d08b4b0a5bf7bb219c4c44d1d267ce6dfbc1ff062ca05ce251a50d18a5/gradio-6.15.1-py3-none-any.whl", hash = "sha256:f4f50488f8da1137b8e0d65fe656348b11bac3cd2f5ccab60636eb45e5a6f39f", size = 20093799, upload-time = "2026-05-27T13:20:31.18Z" },
 ]
 
 [[package]]
@@ -769,7 +769,7 @@ wheels = [
 
 [[package]]
 name = "langsmith"
-version = "0.8.5"
+version = "0.8.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
@@ -779,12 +779,13 @@ dependencies = [
     { name = "requests" },
     { name = "requests-toolbelt" },
     { name = "uuid-utils" },
+    { name = "websockets" },
     { name = "xxhash" },
     { name = "zstandard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/17/eb/8883d1158c743d0aac350f09df7880714d27283497e8c80bb9fe3480f165/langsmith-0.8.5.tar.gz", hash = "sha256:3615243d99c12f4047f13042bdc05a373dce232d106a6511b3ca7b48c5af1c2c", size = 4462348, upload-time = "2026-05-15T21:31:41.093Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/7a/61/d269b8bd3376031de7be6ac2de8ba94fafff67635195d97aa0e842027ac7/langsmith-0.8.6.tar.gz", hash = "sha256:a46fd3403c2de3a9c34f72ebb7b2e45872627671adcc67c6a4c571520b6931cc", size = 4463093, upload-time = "2026-05-27T22:51:52.928Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/23/85/968c88a63e32a59b3e5c68afd2fe114ce0708a125db0be1a85efc25fb2ea/langsmith-0.8.5-py3-none-any.whl", hash = "sha256:efc779f9d450dcaf9d97bc8894f4926276509d6e730e05289af9a64debce06ae", size = 399564, upload-time = "2026-05-15T21:31:39.046Z" },
+    { url = "https://files.pythonhosted.org/packages/7e/c5/28f99eccd79ce89ec93de9a5039a74ddf4740f2d9671b0a06c5d2e200914/langsmith-0.8.6-py3-none-any.whl", hash = "sha256:b304888ea5ec5fe397db24f0bf474b0c8e472fb23ee36a2007e9837f6ff29cc1", size = 399954, upload-time = "2026-05-27T22:51:50.847Z" },
 ]
 
 [[package]]
@@ -856,7 +857,7 @@ dependencies = [
 requires-dist = [
     { name = "geopy", specifier = ">=2.4.1" },
     { name = "google-genai", specifier = ">=2.6.0" },
-    { name = "gradio", specifier = ">=6.15.0" },
+    { name = "gradio", specifier = ">=6.15.1" },
     { name = "langchain", specifier = ">=1.3.2" },
     { name = "langchain-google-genai", specifier = ">=3.2.0" },
     { name = "pillow", specifier = ">=12.2.0" },
