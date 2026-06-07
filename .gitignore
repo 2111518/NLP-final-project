@@ -7,4 +7,5 @@ wheels/
 
 .venv
 .DS_Store
+*.sh
 
