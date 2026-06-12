@@ -1,8 +1,0 @@
-
-
-https://www.researchgate.net/publication/390715972_UrBench_A_Comprehensive_Benchmark_for_Evaluating_Large_Multimodal_Models_in_Multi-View_Urban_Scenarios
-
-
-https://www.researchgate.net/publication/400673536_Geospatial_reasoning_and_awareness_in_large_language_models_a_systematic_review
-
-https://dl.acm.org/doi/10.1145/3678717.3691226
