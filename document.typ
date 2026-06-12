@@ -6,6 +6,8 @@
 #set page(
   paper: "a4",
   margin: (top: 2.5cm, bottom: 2.5cm, left: 2cm, right: 2cm),
+  numbering: "(1/1)",
+  number-align: center
 )
 #set text(
   font: ("Times New Roman", "Heiti TC"), // 支援中英文學術字體
