@@ -148,7 +148,7 @@
 // 【圖片嵌入註解提示 3】
 // 如果您想在此處插入「Gradio 互動介面截圖」或「模型判讀對比圖」，請取消下方註解：
 #figure(
-  image("NLPfinal.png", width: 130%),
+  image("NLPfinal.png", width: 145%),
   caption: [實驗資料],
 ) <fig:screenshot>
 // -------------------------------------------------------------
